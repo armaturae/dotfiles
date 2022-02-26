@@ -31,3 +31,9 @@
 [submodule "xorg"]
 	path = xorg
 	url = git@github.com:armaturae/xorg
+[submodule "ctags"]
+	path = ctags
+	url = git@github.com:armaturae/ctags
+[submodule "neovim"]
+	path = neovim
+	url = git@github.com:armaturae/neovim
