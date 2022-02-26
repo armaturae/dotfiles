@@ -1,0 +1,33 @@
+[submodule "dotbot"]
+	path = dotbot
+	url = git@github.com:armaturae/dotbot
+[submodule "alacritty"]
+	path = alacritty
+	url = git@github.com:armaturae/alacritty
+[submodule "bash"]
+	path = bash
+	url = git@github.com:armaturae/bash
+[submodule "awesome"]
+	path = awesome
+	url = git@github.com:armaturae/awesome
+[submodule "git"]
+	path = git
+	url = git@github.com:armaturae/git
+[submodule "starship"]
+	path = starship
+	url = git@github.com:armaturae/starship
+[submodule "readline"]
+	path = readline
+	url = git@github.com:armaturae/readline
+[submodule "tmux"]
+	path = tmux
+	url = git@github.com:armaturae/tmux
+[submodule "tmuxp"]
+	path = tmuxp
+	url = git@github.com:armaturae/tmuxp
+[submodule "wtfutil"]
+	path = wtfutil
+	url = git@github.com:armaturae/wtfutil
+[submodule "xorg"]
+	path = xorg
+	url = git@github.com:armaturae/xorg
