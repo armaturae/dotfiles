@@ -37,3 +37,18 @@
 [submodule "neovim"]
 	path = neovim
 	url = git@github.com:armaturae/neovim
+[submodule "external/fzf"]
+	path = external/fzf
+	url = https://github.com/junegunn/fzf
+[submodule "external/gopass"]
+	path = external/gopass
+	url = https://github.com/gopasspw/gopass
+[submodule "external/rofi-pass"]
+	path = external/rofi-pass
+	url = https://github.com/carnager/rofi-pass
+[submodule "external/vim-plug"]
+	path = external/vim-plug
+	url = https://github.com/junegunn/vim-plug
+[submodule "rofi"]
+	path = rofi
+	url = https://github.com/armaturae/rofi
