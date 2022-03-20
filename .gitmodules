@@ -1,42 +1,42 @@
 [submodule "dotbot"]
 	path = dotbot
-	url = git@github.com:armaturae/dotbot
+	url = https://github.com/armaturae/dotbot
 [submodule "alacritty"]
 	path = alacritty
-	url = git@github.com:armaturae/alacritty
+	url = https://github.com/armaturae/alacritty
 [submodule "bash"]
 	path = bash
-	url = git@github.com:armaturae/bash
+	url = https://github.com/armaturae/bash
 [submodule "awesome"]
 	path = awesome
-	url = git@github.com:armaturae/awesome
+	url = https://github.com/armaturae/awesome
 [submodule "git"]
 	path = git
-	url = git@github.com:armaturae/git
+	url = https://github.com/armaturae/git
 [submodule "starship"]
 	path = starship
-	url = git@github.com:armaturae/starship
+	url = https://github.com/armaturae/starship
 [submodule "readline"]
 	path = readline
-	url = git@github.com:armaturae/readline
+	url = https://github.com/armaturae/readline
 [submodule "tmux"]
 	path = tmux
-	url = git@github.com:armaturae/tmux
+	url = https://github.com/armaturae/tmux
 [submodule "tmuxp"]
 	path = tmuxp
-	url = git@github.com:armaturae/tmuxp
+	url = https://github.com/armaturae/tmuxp
 [submodule "wtfutil"]
 	path = wtfutil
-	url = git@github.com:armaturae/wtfutil
+	url = https://github.com/armaturae/wtfutil
 [submodule "xorg"]
 	path = xorg
-	url = git@github.com:armaturae/xorg
+	url = https://github.com/armaturae/xorg
 [submodule "ctags"]
 	path = ctags
-	url = git@github.com:armaturae/ctags
+	url = https://github.com/armaturae/ctags
 [submodule "neovim"]
 	path = neovim
-	url = git@github.com:armaturae/neovim
+	url = https://github.com/armaturae/neovim
 [submodule "external/fzf"]
 	path = external/fzf
 	url = https://github.com/junegunn/fzf
