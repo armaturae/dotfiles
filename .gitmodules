@@ -52,3 +52,6 @@
 [submodule "rofi"]
 	path = rofi
 	url = https://github.com/armaturae/rofi
+[submodule "stig"]
+	path = stig
+	url = https://github.com/armaturae/stig.git
