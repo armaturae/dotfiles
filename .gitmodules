@@ -46,9 +46,6 @@
 [submodule "stig"]
 	path = stig
 	url = https://github.com/armaturae/stig.git
-[submodule "external/gita"]
-	path = external/gita
-	url = https://github.com/nosarthur/gita
 [submodule "external/tgenv"]
 	path = external/tgenv
 	url = https://github.com/cunymatthieu/tgenv.git
