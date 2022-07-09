@@ -7,9 +7,6 @@
 [submodule "bash"]
 	path = bash
 	url = https://github.com/armaturae/bash
-[submodule "awesome"]
-	path = awesome
-	url = https://github.com/armaturae/awesome
 [submodule "git"]
 	path = git
 	url = https://github.com/armaturae/git
