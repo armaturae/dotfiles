@@ -1,0 +1,22 @@
+- defaults:
+    link:
+        relink: true
+
+- clean: ['~']
+
+- create:
+    - "~/.config/"
+    - "~/.local/bin/"
+    - "~/.local/share/"
+
+- shell:
+  # - command: git submodule update --init --recursive
+  #    description: Checking out all submodules
+  #    quiet: false
+  #    stdout: true
+    - command: >
+        for submodule_cfg in $(find . -maxdepth 2 -mindepth 2 -name dotbot.yaml);
+        do dotbot -c ${submodule_cfg}; done
+      description: Executing dotbot on all submodules
+      quiet: false
+      stdout: true
