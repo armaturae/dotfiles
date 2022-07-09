@@ -8,6 +8,13 @@
     - "~/.config/"
     - "~/.local/bin/"
     - "~/.local/share/"
+    - "~/.bash_completion.d/"
+
+    # Offload that
+    - ~/.config/wtf
+    - ~/.bash_completion.d
+    - ~/.cargo/bin
+    - ~/.config/stig
 
 - shell:
   # - command: git submodule update --init --recursive
@@ -20,3 +27,22 @@
       description: Executing dotbot on all submodules
       quiet: false
       stdout: true
+
+- link:
+    # OFFLOAD
+    ~/.inputrc: readline/inputrc
+    ~/.utils: utils
+    # Completion
+    ~/.bash_completion.d/pass.bash-completion: external/gopass/bash.completion
+    ~/.bash_completion.d/gita.bash-completion: external/gita/.gita-completion.bash
+    ~/.bash_completion.d/fzf.bash-completion: external/fzf/shell/completion.bash
+    # wtfutil
+    ~/.config/wtf/config.yml: wtfutil/default.yaml
+    # Starship
+    ~/.config/starship.toml: starship/starship.toml
+    # Bitorrent cli client
+    ~/.config/stig/rc: stig/rc
+    # fzf
+    ~/.fzf: external/fzf
+    # ctags
+    ~/.ctags.d: ctags
