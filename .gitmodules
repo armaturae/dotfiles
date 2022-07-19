@@ -46,3 +46,6 @@
 [submodule "external/tgenv"]
 	path = external/tgenv
 	url = https://github.com/cunymatthieu/tgenv.git
+[submodule "external/tfnev"]
+	path = external/tfnev
+	url = https://github.com/tfutils/tfenv.git

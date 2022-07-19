@@ -34,7 +34,6 @@
     ~/.utils: utils
     # Completion
     ~/.bash_completion.d/pass.bash-completion: external/gopass/bash.completion
-    ~/.bash_completion.d/gita.bash-completion: external/gita/.gita-completion.bash
     ~/.bash_completion.d/fzf.bash-completion: external/fzf/shell/completion.bash
     # wtfutil
     ~/.config/wtf/config.yml: wtfutil/default.yaml

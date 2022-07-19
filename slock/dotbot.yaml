@@ -1,0 +1,11 @@
+- defaults:
+    link:
+        relink: true
+
+- clean: ['~']
+
+- link:
+    ~/.config/systemd/user/slock.service: slock.service
+
+- create:
+    - ~/.config/systemd/user

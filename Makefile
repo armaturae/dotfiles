@@ -4,14 +4,6 @@ install-dependencies:
 	pip install --user dotbot
 
 default:
-	dotbot -c dotbot/default.yaml -d .
+	dotbot -c dotbot.yaml -d .
 
-headless:
-	dotbot -c dotbot/lib/headless.yaml -d .
-
-desktop:
-	dotbot -c dotbot/desktop.yaml -d .
-
-vm: default headless
-
-home: default headless desktop
+all: install-dependencies default
